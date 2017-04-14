@@ -1,0 +1,206 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      6325,        197]
+NotebookOptionsPosition[      5632,        169]
+NotebookOutlinePosition[      6010,        186]
+CellTagsIndexPosition[      5967,        183]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["Hamiltonian of monolayer MoS2 with SOC",
+  FontSize->24,
+  FontWeight->"Bold"],
+ "\n\tReproduce the work of Andor for monolayer MoS2 k\[CenterDot]p \
+Hamiltonian:\n\n",
+ StyleBox["With SOC, we need a seven band model including bands between VB-3 \
+~ CB+2:",
+  FontSize->12,
+  FontWeight->"Bold",
+  FontSlant->"Italic"],
+ "\n"
+}], "Text",
+ CellChangeTimes->{{3.639428418034918*^9, 3.6394285271635103`*^9}, {
+  3.639428599988976*^9, 3.639428601595731*^9}, {3.63944819938*^9, 
+  3.6394482512693157`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.639433106868012*^9, 3.6394331068801622`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Clear", "[", "\"\<`*\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.639432729540312*^9, 3.63943273168293*^9}, {
+  3.63943282037183*^9, 3.639432867320301*^9}, {3.639432966448085*^9, 
+  3.639432978070436*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   SubsuperscriptBox["H", "vb", "so"], "=", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "\[Tau]"}], "*", 
+     SubsuperscriptBox["\[CapitalDelta]", "1", "v"], "*", 
+     SubscriptBox["S", "z"]}], "+", 
+    RowBox[{
+     RowBox[{
+      SubsuperscriptBox["\[CapitalDelta]", "2", "v"], "/", "2"}], "*", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       RowBox[{"\[Tau]", "*", 
+        SubscriptBox["S", "z"]}]}], ")"}]}]}]}]}]], "Input",
+ CellChangeTimes->{{3.6394484250021152`*^9, 3.63944852042214*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Tag \[NoBreak]\\!\\(Power\\)\[NoBreak] in \
+\[NoBreak]\\!\\(H\\_vb\\%so\\)\[NoBreak] is Protected. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/write\\\", \
+ButtonNote -> \\\"Set::write\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.639448523062956*^9, 3.6394486110621767`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "\[Tau]"}], " ", 
+   SubscriptBox["S", "z"], " ", 
+   SubsuperscriptBox["\[CapitalDelta]", "1", "v"]}], "+", 
+  RowBox[{
+   FractionBox["1", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{"1", "+", 
+     RowBox[{"\[Tau]", " ", 
+      SubscriptBox["S", "z"]}]}], ")"}], " ", 
+   SubsuperscriptBox["\[CapitalDelta]", "2", "v"]}]}]], "Output",
+ CellChangeTimes->{3.6394485230642567`*^9, 3.639448611086411*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["H", "cb", "so"], "=", " ", 
+  RowBox[{
+   RowBox[{"-", 
+    SuperscriptBox["\[CapitalDelta]", "c"]}], "*", "ConjugateTranspose", 
+   RowBox[{
+    RowBox[{"(", 
+     SuperscriptBox["\[CapitalDelta]", "c"], ")"}], "/", "2"}], "*", 
+   RowBox[{"[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        RowBox[{"\[Tau]", "*", 
+         SubscriptBox["S", "z"]}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["\[Epsilon]", "c"], "-", 
+        SubscriptBox["\[Epsilon]", 
+         RowBox[{"v", "-", "1"}]]}], ")"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"\[Tau]", "*", 
+         SubscriptBox["S", "z"]}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["\[Epsilon]", 
+         RowBox[{"c", "+", "1"}]], "-", 
+        SubscriptBox["\[Epsilon]", "c"]}], ")"}]}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.639448632166648*^9, 3.639448851760201*^9}},
+ EmphasizeSyntaxErrors->True],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "sntxf"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\\\"\[NoBreak]\\!\\(\\(\\(-\[CapitalDelta]\\^c\\)\\) * \
+ConjugateTranspose \\(\\(\\(\\((\[CapitalDelta]\\^c)\\)\\)/2\\)\\) *\\)\
+\[NoBreak]\\\" cannot be followed by \
+\\\"\[NoBreak]\\!\\(\\([\\(\\(\\(\\(\\(\\((1 - \\(\\(\[Tau] * S\\_z\\)\\))\\)\
+\\)/\\(\\((\[Epsilon]\\_c - \[Epsilon]\\_\\(v - 1\\))\\)\\)\\)\\) - \\(\\(\\(\
+\\((1 + \\(\\(\[Tau] * S\\_z\\)\\))\\)\\)/\\(\\((\[Epsilon]\\_\\(c + 1\\) - \
+\[Epsilon]\\_c)\\)\\)\\)\\)\\)\\)]\\)\\)\[NoBreak]\\\"\[NoBreak]\\!\\(\\\"\\\"\
+\\)\[NoBreak].\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.639448873027163*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "tsntxi"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\\\"\[NoBreak]\\!\\([\\(\\(\\(\\(\\(\\((1 - \\(\\(\[Tau] * \
+S\\_z\\)\\))\\)\\)/\\(\\((\[Epsilon]\\_c - \[Epsilon]\\_\\(v - 1\\))\\)\\)\\)\
+\\) - \\(\\(\\(\\((1 + \\(\\(\[Tau] * S\\_z\\)\\))\\)\\)/\\(\\((\[Epsilon]\\_\
+\\(c + 1\\) - \[Epsilon]\\_c)\\)\\)\\)\\)\\)\\)]\\)\[NoBreak]\\\" is \
+incomplete; more input is \
+needed.\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak]\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6394488731129637`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "sntxi"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Incomplete expression; more input is needed \
+\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak].\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.639448873194907*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 651},
+WindowMargins->{{122, Automatic}, {29, Automatic}},
+ShowSelection->True,
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 528, 15, 116, "Text"],
+Cell[1088, 37, 144, 2, 28, "Input"],
+Cell[1235, 41, 229, 4, 28, "Input"],
+Cell[CellGroupData[{
+Cell[1489, 49, 566, 16, 51, "Input"],
+Cell[2058, 67, 497, 10, 25, "Message"],
+Cell[2558, 79, 451, 13, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3046, 97, 1043, 32, 34, "Input"],
+Cell[4092, 131, 689, 13, 41, "Message"],
+Cell[4784, 146, 555, 11, 24, "Message"],
+Cell[5342, 159, 274, 7, 21, "Message"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

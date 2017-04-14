@@ -1,0 +1,96 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3126,         87]
+NotebookOptionsPosition[      2757,         69]
+NotebookOutlinePosition[      3113,         85]
+CellTagsIndexPosition[      3070,         82]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Effective Hamiltonian for monolayer MoS2 with SOC etc. \
+\>", "Subtitle",
+ CellChangeTimes->{{3.63796203486906*^9, 3.637962084311558*^9}}],
+
+Cell["\<\
+Goal: to redo the results by Andor Korm\.b4 anyos, Habib   Rostami, and Di \
+Xiao. 
+Later: NEGF and Pseudospin
+
+Key words:   trigonal warping  \[CapitalGamma]-valley  \
+\>", "Text",
+ CellChangeTimes->{{3.6379621189880333`*^9, 3.637962183189869*^9}, {
+  3.637962599576725*^9, 3.6379626287052298`*^9}}],
+
+Cell[TextData[{
+ "Spinless effective H:\n\n1: Group symmetry: \nThe pertinent point groups to \
+understand the band structure of monolayer MoS2 are D3h and C3h. The former \
+is the group of the wave vector at the \[CapitalGamma] point, the latter at \
+the K point of the Brillouin   zone (BZ).\n \[Nu] = {s, px, py, pz, dz2 , dxy \
+, dxz, dxz, dx2 \[Minus]y2 }\n\nSince hybridization between different \
+orbitals will preserve the symmetry properties, the analysis of the bands in \
+terms of atomic orbitals, together with band compatibility relations, gives \
+us the irreps that can be assigned to each band.\n\n\nVB:   Mainly dxy, \
+dx2-y2 of Mo atoms which are symmetric with respect to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Sigma]", "h"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ";\nCB:  Mainly dz2 of Mo which is also symmetric with respect to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Sigma]", "h"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ";\n\n  The other bands between the VB-3 and CB+2 are antisymmetric with \
+respect to the mirror plane of MoS2  and therefore they do not couple to the \
+VB and the CB.\n\n\n\n"
+}], "Subsubtitle",
+ CellChangeTimes->{{3.6379625624369802`*^9, 3.637962581160725*^9}, {
+  3.6379626722432632`*^9, 3.637962682889963*^9}, {3.637962787389996*^9, 
+  3.637962846604059*^9}, {3.637962981031398*^9, 3.637962981136211*^9}, {
+  3.6379632758834333`*^9, 3.637963316027892*^9}, {3.637963359881516*^9, 
+  3.637963361235977*^9}, {3.637963423762363*^9, 3.637963423862946*^9}, {
+  3.6379638156966543`*^9, 3.637963928054186*^9}, {3.6379640337537537`*^9, 
+  3.6379640882118587`*^9}, {3.637964228200959*^9, 3.6379642392155027`*^9}}]
+}, Open  ]]
+},
+WindowSize->{740, 651},
+WindowMargins->{{19, Automatic}, {41, Automatic}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 148, 3, 51, "Subtitle"],
+Cell[730, 27, 310, 8, 87, "Text"],
+Cell[1043, 37, 1698, 29, 449, "Subsubtitle"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,112 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3391,        103]
+NotebookOptionsPosition[      2819,         79]
+NotebookOutlinePosition[      3176,         95]
+CellTagsIndexPosition[      3133,         92]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["To get the Hamiltonian of bilayer MoS2 Hamiltonian \
+using analytical and numerical methods",
+ FontSize->24,
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.6396772362226257`*^9, 3.639677310256549*^9}}],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{{3.639677301378566*^9, 3.6396773131369953`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Step 1: Tunneling conductance between parallel two dimensional electron \
+systems\
+\>", "Item",
+ CellChangeTimes->{{3.639677317314013*^9, 3.6396773690293617`*^9}}],
+
+Cell["\<\
+key words: low T; linear response; impurity averaged perturbation \
+theory;finite lifetime within the wells; momentum nonconservation tunnelling; \
+disorder broading features;\
+\>", "Item",
+ CellChangeTimes->{{3.639677317314013*^9, 3.639677369027863*^9}, {
+  3.6396774830987873`*^9, 3.639677528241743*^9}, {3.639677585931944*^9, 
+  3.639677682116871*^9}}],
+
+Cell["\<\
+Disorder vertex corrections are important only for weak in-plane magnetic \
+fields and strong   interwell impurity-potential correlations.  \
+\>", "Item",
+ CellChangeTimes->{{3.639677317314013*^9, 3.639677369027863*^9}, {
+  3.6396774830987873`*^9, 3.639677528241743*^9}, {3.639677585931944*^9, 
+  3.6396777739747972`*^9}}],
+
+Cell["\<\
+ Using tunneling measurements to determine the lifetime of electrons in the \
+quantum wells.\
+\>", "Item",
+ CellChangeTimes->{{3.639677317314013*^9, 3.639677369027863*^9}, {
+  3.6396774830987873`*^9, 3.639677528241743*^9}, {3.639677585931944*^9, 
+  3.639677791260625*^9}, {3.639702334326585*^9, 3.639702334328418*^9}}],
+
+Cell[" 2DES transport lifetime", "Item",
+ CellChangeTimes->{{3.639677317314013*^9, 3.639677369027863*^9}, {
+  3.6396774830987873`*^9, 3.639677528241743*^9}, {3.639677585931944*^9, 
+  3.639677791260625*^9}, {3.639702334326585*^9, 3.639702349773012*^9}}],
+
+Cell["\<\
+this provides information on the nature of the disorder scatterers in the \
+system.\
+\>", "Item",
+ CellChangeTimes->{{3.639677317314013*^9, 3.639677369027863*^9}, {
+  3.6396774830987873`*^9, 3.639677528241743*^9}, {3.639677585931944*^9, 
+  3.639677791260625*^9}, {3.639702334326585*^9, 3.639702354868634*^9}}]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{3.639702328367915*^9}]
+},
+WindowSize->{740, 651},
+WindowMargins->{{Automatic, 204}, {39, Automatic}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 231, 4, 73, "Text"],
+Cell[791, 26, 113, 1, 46, "Input"],
+Cell[CellGroupData[{
+Cell[929, 31, 173, 4, 28, "Item"],
+Cell[1105, 37, 365, 7, 45, "Item"],
+Cell[1473, 46, 332, 6, 45, "Item"],
+Cell[1808, 54, 328, 6, 28, "Item"],
+Cell[2139, 62, 252, 3, 28, "Item"],
+Cell[2394, 67, 319, 6, 28, "Item"]
+}, Open  ]],
+Cell[2728, 76, 87, 1, 46, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
